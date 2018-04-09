@@ -1,0 +1,43 @@
+baseurl = "http://chrishawley.io/"
+languageCode = "en-us"
+author = "Chris Hawley"
+title = "Chris Hawley"
+theme = "hugo-goa"
+
+layoutdir = "layouts"
+publishdir = "publish"
+contentdir = "content"
+
+enableRobotsTXT = true
+
+[params]
+author="Chris Hawley"
+intro="Software Engineer"
+description = "Building at @RADAR, was @Spotify and @A9.com"
+authorimage = "hawley_headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+[params.meta]
+description = "test"
+keywords = "blog,software,developer,java"
+
+[params.social]
+github = "cjhawley"
+linkedin = "christopher-hawley-00223a6b"
+email = "chris@chrishawley.io"
+
+[[menu.main]]
+  name = "about"
+  identifier = "about"
+  weight = 100
+  url = "/about/"
+[[menu.main]]
+  name = "blog"
+  identifier = "blog"
+  weight = 200
+  url = "/blog/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
